@@ -20,7 +20,7 @@ I always create a separate user to run each of my games from, especially on syst
 sudo useradd minecraft
 ```
 
-Create a directory to store all of the server files. I prefer to make it in `/opt`, however this directory could be anywhere you like. The `/opt` directory does require root privilleges to operate in, so if operating here make sure your game user has `sudo` privilleges.   
+Create a directory to store all of the server files. I prefer to make it in `/opt`, however this directory could be anywhere you like. The `/opt` directory does normally require sudo privilleges to act within, so make sure to change the owner of the server directory with `chown` to your server user.
 ```
 sudo mkdir /opt/minecraft
 ``` 
